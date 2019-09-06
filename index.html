@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+
+  <style>
+    :root {
+      /* colors */
+      --color-primary: #ab47bc;
+      --color-primary--dark: #790e8b;
+      --color-primary--light: #df78ef;
+      --color-secondary: #512da8;
+      --color-secondary--dark: #140078;
+      --color-secondary--light: #8559da;
+
+      /* fonts */
+      --sans-serif: 'Nunito', sans-serif;
+      --serif: 'Noto Serif', serif;
+      
+      /* gutters */
+      --gutter: 40px;
+
+      /* vertical spacing */
+      --v-space: 80px;
+
+      /* hero height */
+      --hero-height: 500px;
+
+      /* layers */
+      --background: 1;
+      --foreground: 2;
+      --hero: 3;
+      --local-hero: 4;
+      --global-hero: 5;
+
+      /* transitions */
+      --transition-time: 0.4s;
+    }
+    @media screen and (max-width: 600px) {
+      :root {
+      /* gutters */
+      --gutter: 20px;
+      
+      /* vertical spacing*/
+      --v-space: 40px;
+
+      /* hero height */
+      --hero-height: 400px;
+      }
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+  <title>lit-test</title>
+</head>
+<body>
+  <lit-test title="Lit-Html Test"></lit-test>
+
+  <script type="module" src="./packages/lit-test/lit-test.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+export { ServicesExcerpt } from './src/ServicesExcerpt.js'
